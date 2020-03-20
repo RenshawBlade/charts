@@ -11,13 +11,13 @@ imagePullSecrets:
 ##
 serviceAccounts:
   alertmanager:
-    create: true
+    create: false
     name:
   nodeExporter:
     create: true
     name:
   pushgateway:
-    create: true
+    create: false
     name:
   server:
     create: true
